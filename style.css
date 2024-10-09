@@ -54,6 +54,7 @@ input[type="number"] {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgb(168, 227, 227);
 }
 
 button {
@@ -62,6 +63,7 @@ button {
     border-radius: 5px;
     background-color: rgb(122, 180, 5);
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     margin-bottom: 10px;
     transition: background-color 0.3s;
@@ -74,16 +76,12 @@ button:hover {
 .result {
     margin-top: 20px;
     font-size: 1.2rem;
-    color: rgb(122, 180, 5);
-    text-align: center;
-}
-
-.rodape {
-    background-color: rgb(50, 50, 50);
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
-    padding: 10px;
-    font-size: 0.9rem;
+    background-color: rgb(123, 194, 194);
+    padding: 1%;
+    border-radius: 5%;
 }
 
 @media (min-width: 768px) {
