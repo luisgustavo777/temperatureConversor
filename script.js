@@ -17,3 +17,23 @@ document.getElementById('toFahrenheit').addEventListener('click', function() {
         document.getElementById('result').innerText = 'Por favor, insira um número válido.';
     }
 });
+
+document.getElementById('fromCelsiusToKelvin').addEventListener('click', function() {
+    const temperature = parseFloat(document.getElementById('temperatureInput').value);
+    if (!isNaN(temperature)) {
+        const kelvin = (temperature + 273.15);
+        document.getElementById('result').innerText =  `${temperature} °C é igual a ${kelvin.toFixed(2)} °K`;
+    } else {
+        document.getElementById('result').innerText = 'Por favor, insira um número válido'
+    }
+});
+
+document.getElementById('fromFahrenheitToKelvin').addEventListener('click', function() {
+    const temperature = parseFloat(document.getElementById('temperatureInput').value);
+    if (!isNaN(temperature)) {
+        const kelvin = (((temperature - 32) * 5) / 9) + 273.15;
+        document.getElementById('result').innerText =  `${temperature} °F é igual a ${kelvin.toFixed(2)} °K`;
+    } else {
+        document.getElementById('result').innerText = 'Por favor, insira um número válido'
+    }
+});
