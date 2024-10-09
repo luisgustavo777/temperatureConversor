@@ -1,8 +1,8 @@
 Disclaimer: This page was made on Mozilla Firefox.
 
 Desktop View:
-![image](https://github.com/user-attachments/assets/808b5391-498d-479e-8537-0ab81c9cf8d9)
+![Captura de tela 2024-10-08 232505](https://github.com/user-attachments/assets/27f44afa-f5de-4370-a710-28951d2e69f9)
 
 Mobile View:
 
-![Captura de tela 2024-10-08 224150](https://github.com/user-attachments/assets/6e195e0b-e39f-43ed-bc41-070471719942)
+![Captura de tela 2024-10-08 232541](https://github.com/user-attachments/assets/8d52b7b6-d18a-4806-822d-c8913d10b631)
